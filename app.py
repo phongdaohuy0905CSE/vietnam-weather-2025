@@ -36,17 +36,17 @@ def response_weather(day: str, location: str):
         if location == "HCM":
             return "Hôm nay trời nắng, nhiệt độ ba mươi độ."
         elif location == "HN":
-            return "No information"
+            return "Không có thông tin!"
     elif day == "1":
         if location == "HCM":
             return "Ngày mai trời nắng râm, nhiệt độ khoảng hai mươi tám độ."
-        elif location == "No information":
-            return ""
+        elif location == "HN":
+            return "Không có thông tin!"
     elif day == "2":
         if location == "HCM":
             return "Ba ngày tới ở thành phố Hồ Chí Minh có nắng gián đoạn, nhiệt độ trung bình ba mươi mốt độ."
-        elif location == "No information":
-            return ""
+        elif location == "HN":
+            return "Không có thông tin!"
 
     return "Xin lỗi, trung tâm không có dữ liệu cho lựa chọn này."
 
